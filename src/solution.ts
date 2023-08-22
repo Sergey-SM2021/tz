@@ -46,7 +46,6 @@ export const setNumberCountToChange = (array: Array<Line>):Array<Line> => {
         ) {
           count += 1;
           disabledIndexes.push(index+1)
-          disabledIndexes.push(index+2)
         }
       }
     });
