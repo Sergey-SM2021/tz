@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node ./dist/my-first-webpack.bundle.js"
+    "start": "node ./dist/my-first-webpack.bundle.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
